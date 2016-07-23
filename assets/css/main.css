@@ -1695,7 +1695,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2684,6 +2684,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			font-size: 3em;
 		}
 
 			ul.icons li {
@@ -3266,7 +3267,8 @@
 		}
 
 		.wrapper.style1-alt {
-			background-color: #8598C4;
+			 
+			background-color: #39528D;
 		}
 
 		.wrapper.style2 {
@@ -3274,7 +3276,7 @@
 		}
 
 		.wrapper.style2-alt {
-			background-color: #8598C4;
+			background-color: #39528D;
 		}
 
 		.wrapper.style3 {
@@ -3282,7 +3284,7 @@
 		}
 
 		.wrapper.style3-alt {
-			background-color: #8598C4;
+			background-color: #39528D;
 		}
 
 		.wrapper.fullscreen {
@@ -4008,4 +4010,13 @@
 
 		.hangul-child {
 			padding: 10px;
+		}
+
+		.rule {
+			color: #FFE0A3;
+		}
+
+		.icons a:hover {
+			color: #FFE0A3;
+
 		}
