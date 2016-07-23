@@ -1639,7 +1639,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, 0.75);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3978,6 +3978,13 @@
 			border: .5em solid white;
 		}
 
+		#syllable {
+			background-color: #39528D;
+			padding: 2em;
+			text-align: center;
+			border: .5em solid white;
+		}
+
 	
 
 		#tips {
@@ -3999,3 +4006,6 @@
 			
 		}
 
+		.hangul-child {
+			padding: 10px;
+		}
