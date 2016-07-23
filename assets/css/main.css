@@ -3116,12 +3116,12 @@
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
+					max-width: 100%;
 					height: 50vh;
 				}
 
 				.spotlights > section > .content {
-					width: 100%;
+					max-width: 100%;
 				}
 
 				.spotlights > section.inactive > .content > .inner, body.is-loading .spotlights > section > .content > .inner {
@@ -3952,12 +3952,26 @@
 			border: .5em solid white;
 		}
 
-		#basic-consonants {
+			#basic-consonants {
 			background-color: #39528D;
 			padding: 2em;
 			text-align: center;
 			border: .5em solid white;
 		}
+			#complex-vowels {
+			background-color: #39528D;
+			padding: 2em;
+			text-align: center;
+			border: .5em solid white;
+		}
+			#complex-consonants {
+			background-color: #39528D;
+			padding: 2em;
+			text-align: center;
+			border: .5em solid white;
+		}
+
+	
 
 		#tips {
 
@@ -3970,10 +3984,11 @@
 		#image1 {
 		
 			background-color: #459393;
-			vspace: 20px;
+			
 		}
 
 		#image2 {
 			background-color: #566EA4;
+			
 		}
 
