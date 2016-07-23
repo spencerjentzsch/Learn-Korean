@@ -1721,10 +1721,10 @@
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #FFE0A3, #B58526);
+				background-image: -webkit-linear-gradient(to right, #FFE0A3, #B58526);
+				background-image: -ms-linear-gradient(to right, #FFE0A3, #B58526);
+				background-image: linear-gradient(to right, #FFE0A3, #B58526);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2589,10 +2589,11 @@
 /* Image */
 
 	.image {
-		border-radius: 0.25em;
+		border-radius: .25em;
 		border: 0;
 		display: inline-block;
 		position: relative;
+	
 	}
 
 		.image img {
@@ -2605,7 +2606,7 @@
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				max-width: 100%;
 			}
 
 		.image.left {
@@ -3868,7 +3869,7 @@
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #FFE0A3;
 						}
 
 		}
@@ -3969,6 +3970,7 @@
 		#image1 {
 		
 			background-color: #459393;
+			vspace: 20px;
 		}
 
 		#image2 {
