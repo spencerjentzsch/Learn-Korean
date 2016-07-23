@@ -2073,6 +2073,7 @@
 			}
 
 			.features section .icon {
+				/**
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
 				-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
@@ -2081,6 +2082,7 @@
 				-webkit-transition-delay: 1s;
 				-ms-transition-delay: 1s;
 				transition-delay: 1s;
+				**/
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -2090,7 +2092,7 @@
 				top: 3em;
 				opacity: 1;
 			}
-
+/**
 			.features section:nth-child(1) .icon {
 				-moz-transition-delay: 0.15s;
 				-webkit-transition-delay: 0.15s;
@@ -2230,7 +2232,7 @@
 				-ms-transition-delay: 3.0s;
 				transition-delay: 3.0s;
 			}
-
+**/
 		.features.inactive section .icon {
 			-moz-transform: scale(0.5);
 			-webkit-transform: scale(0.5);
@@ -3035,11 +3037,14 @@
 			}
 
 			.spotlights > section > .image:before {
+				/**
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
+	
 				background: rgba(49, 36, 80, 0.9);
+				**/
 				content: '';
 				display: block;
 				height: 100%;
@@ -3073,11 +3078,13 @@
 				-webkit-transform: translateX(0) translateY(0);
 				-ms-transform: translateX(0) translateY(0);
 				transform: translateX(0) translateY(0);
+				/**
 				-moz-transition: opacity 1s ease, -moz-transform 1s ease;
 				-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 				-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 				transition: opacity 1s ease, transform 1s ease;
 				opacity: 1;
+				**/
 			}
 /**
 		.spotlights > section:nth-child(2) {
